@@ -2,6 +2,8 @@
 name = "django-rest-hooks"
 version = "0.1.0"
 description = "Hooks for Django REST framework"
+authors = []
+packages = [{ include = "rest_hooks" }]
 
 [build-system]
 requires = ["setuptools"]
